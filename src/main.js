@@ -1,8 +1,13 @@
-const a = 3;
-const b = 4;
+const FizzBuzz = (num) => {
+  if (num === 0) return 0;
+  if (num % 3 === 0 && num % 5 === 0) return 'FizzBuzz';
+  if (num % 3 === 0) return 'Fizz';
+  if (num % 5 === 0) return 'Buzz';
 
-function teste() {
-  return a + b;
-}
+  return num;
+  function d(){
+    return 'd';
+  }
+};
 
-teste();
+export default FizzBuzz;
